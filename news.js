@@ -2,7 +2,7 @@ console.log('hello');
 
 let newsaccordion = document.getElementById('News-accordion');
 let source = 'bbc-news';
-let apikey = 'a90f8e034de64d398feedaef0720c6ee';
+let apikey = 'a3658aad66msh24c7bda96b7bea4p1ff82djsn975a95fe5ab7';
 
 let xhr = new XMLHttpRequest();
 xhr.open('Get', `https://newsapi.org/v2/top-headlines?sources=${source}&apikey=${apikey}`, true);
