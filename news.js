@@ -1,7 +1,7 @@
 console.log('hello');
 
 let newsaccordion = document.getElementById('News-accordion');
-let source = 'bbc-news';
+let source = 'https://musclejp.p.rapidapi.com/get-cible/biceps';
 let apikey = 'a3658aad66msh24c7bda96b7bea4p1ff82djsn975a95fe5ab7';
 
 let xhr = new XMLHttpRequest();
